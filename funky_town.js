@@ -29,5 +29,7 @@ function getRandInt(numb) {
 };
 
 function randomStudent(l){
-	return l[getRandInt(0,l.length)];
+	var indx = getRandInt(l.length)
+
+	return l[indx];
 };
